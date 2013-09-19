@@ -28,7 +28,7 @@ $disqus = new ZendX_Disqus_Api();
 $disqus->setApiSecret(YOUR_SECRETKEY)
 	   ->setAccessToken(YOUR_ACCESSTOKEN)
 	   ->setEndpoint($endpoint)
-	   ->setHttpClient($client)
+	   ->setHttpClient($httpclient)
 	   ->connect();
 </code></pre>
 
@@ -45,6 +45,6 @@ $disqus = new ZendX_Disqus_Api();
 $disqus->setApiSecret(YOUR_SECRETKEY)
 	   ->setAccessToken(YOUR_ACCESSTOKEN)
 	   ->setEndpoint($endpoint)
-	   ->setHttpClient($client)
+	   ->setHttpClient($httpclient)
 	   ->connect();
 </code></pre>
